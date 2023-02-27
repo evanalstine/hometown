@@ -40,9 +40,7 @@ slate gray 687A8D
 		padding: 5px 0;				
 		max-width: 475px;
 }
-	#brier-images {
-		display: block;
-	}
+	
 }
 
 /*layout for ipad/tablet*/
@@ -65,7 +63,6 @@ slate gray 687A8D
 
 	#activities-section {
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
 	}
 
@@ -144,23 +141,17 @@ slate gray 687A8D
 		margin-left: 6px;
 	}
 
-	#images-box {
+	#images-box {	
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;		
-		padding: 20px;
+		padding: 10px;
 		width: 100%;
 	}
-	
-	.brier-pic {
-		width: 200px;
-		/* margin-left: 30px;
-		margin-right: 30px; */
-	}
 }
+
 /*-----------------------------------------------------*/
 /*layout for large screens, desktop*/
-@media (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
 	body {
 		font-size: 20px;
 	}
@@ -201,12 +192,8 @@ slate gray 687A8D
 		margin: 8px;
 	}
 
-	#images-section {
+	#images-box {
 		display: flex;
-		columns: 2;
-		justify-content: center;		
-		max-width: 800px;
-		border: 2px solid black;
 	}
 }
 /*---------------------------------------------------*/
@@ -414,14 +401,26 @@ div {
 
 #images-title {
 	display: inline-block;
-	border-bottom:2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#images-box {
+	display: block;
 }
 
 .brier-pic {
-	max-width: 250px;
+	width: 200px;
 	margin: 20px 10px;
 	border-radius: 0;
 }
+
+
+
+
+	
+
+
+
 
 
 
